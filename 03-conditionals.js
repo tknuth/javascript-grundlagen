@@ -1,9 +1,9 @@
 console.log(typeof true);
 
 // Vergleiche ergeben Wahrheitswerte.
-console.log(`${1 == 1}`);
-console.log(`${1 != 0}`);
-console.log(`${1 >= 0}`);
+console.log(1 == 1);
+console.log(1 != 0);
+console.log(1 >= 0);
 
 // `includes` prüft, ob ein Element in einem Array enthalten ist.
 console.log(["a", "b", "c"].includes("a"));
