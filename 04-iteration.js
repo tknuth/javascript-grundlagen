@@ -40,7 +40,7 @@ while (i < 10) {
 let i = 2;
 while (true) {
   console.log(`2^${i} = ${2 ** i}`);
-  if (prompt("Fortfahren (j/n)?") !== "j") {
+  if (!confirm("Fortfahren?")) {
     break;
   }
   i += 1;
@@ -50,7 +50,7 @@ while (true) {
 // auch direkt zu Beginn geprüft werden.
 i = 2;
 n = 100;
-while (prompt("Fortfahren (j/n)?") === "j") {
+while (confirm("Fortfahren?")) {
   console.log(`2^${i} = ${2 ** i}`);
   i += 1;
 }
