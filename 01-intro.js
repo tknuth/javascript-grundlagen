@@ -34,6 +34,10 @@ let name = prompt("Wie heißt du?");
 // implizite Typkonvertierung
 "3" * 4;
 
+// Konvertierung von Strings in Zahlen
+const x = "3";
++x;
+
 // Das Schlüsselwort `typeof` gibt den Datentyp an.
 typeof 3.1;
 
