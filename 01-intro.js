@@ -21,24 +21,17 @@ Math.floor(17 / 3);
 // Modulus/Rest
 17 % 3;
 
-// Formatierung mit Tausendertrennzeichen
-1_000_000;
-
 // Quadratwurzel
 Math.sqrt(2);
 
 // Vorsicht, Fließkommazahlen können zu unerwarteten Ergebnissen führen.
 0.1 + 0.2 === 0.3;
 
-// `Math.round` rundet auf die nächste ganze Zahl.
-let price = 19.99;
-let discount = 0.25;
-Math.round(price * (1 - discount) * 100) / 100;
-
+// Konkatenation von Strings
 let name = prompt("Wie heißt du?");
 "Hallo " + name;
 
-// Implizite Typkonvertierung
+// implizite Typkonvertierung
 "3" * 4;
 
 // Das Schlüsselwort `typeof` gibt den Datentyp an.
