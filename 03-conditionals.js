@@ -10,11 +10,11 @@ console.log(["a", "b", "c"].includes("a"));
 
 let weather = "Regen";
 
-if (weather === "Regen") {
+if (weather == "Regen") {
   console.log("Nimm einen Regenschirm mit.");
-} else if (weather === "Sonne") {
+} else if (weather == "Sonne") {
   console.log("Nimm eine Sonnenbrille mit.");
-} else if (weather === "Schnee") {
+} else if (weather == "Schnee") {
   console.log("Nimm Handschuhe mit.");
 } else {
   console.log("Nimm nichts mit.");
