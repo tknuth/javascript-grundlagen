@@ -8,7 +8,8 @@ s.slice(3, 5);
 
 // Mit Template-Strings können Texte mit Variablen befüllt werden.
 const greeting = "Guten Morgen";
-const name = "Anna"`${greeting}, ${name}`;
+const name = "Anna"
+`${greeting}, ${name}`;
 
 // Wiederholung von Strings
 "ab".repeat(3) + "c";
