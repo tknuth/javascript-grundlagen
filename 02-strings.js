@@ -19,6 +19,10 @@ message.trim().toLowerCase().replace("etwas", "nichts");
 
 ["a", "b", "c"].join(", ");
 
+const numbers = [3, 2, 1];
+numbers.toSorted();
+numbers.sort();
+
 "Dies ist ein Satz, der auch ein Komma enthält.".split(", ");
 
 // Passen Sie den Code an, sodass die Elemente sortiert ausgegeben werden.
