@@ -34,19 +34,9 @@ let name = prompt("Wie heißt du?");
 // implizite Typkonvertierung
 "3" * 4;
 
-// Konvertierung von Strings in Zahlen
-const x = "3";
-+x;
-
 // Das Schlüsselwort `typeof` gibt den Datentyp an.
 typeof 3.1;
 
-// Was passiert hier?
-let a = prompt("Nenne eine ganze Zahl für a:");
-let b = prompt("Nenne eine ganze Zahl für b:");
-a + b;
-
-// Was passiert hier?
-let birth_year = prompt("In welchem Jahr wurdest du geboren?");
-let age = 2024 - birth_year;
-"Du bist " + age + " Jahre alt.";
+// Konvertierung von Strings in Zahlen
+const x = "3";
++x;
