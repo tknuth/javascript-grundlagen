@@ -1,23 +1,24 @@
 console.log(typeof true);
 
 // Vergleiche ergeben Wahrheitswerte.
-console.log(1 == 1);
-console.log(1 != 0);
-console.log(1 >= 0);
+1 == 1;
+1 != 0;
+1 >= 0;
 
 // `includes` prüft, ob ein Element in einem Array enthalten ist.
 console.log(["a", "b", "c"].includes("a"));
 
 let weather = "Regen";
+let action;
 
 if (weather == "Regen") {
-  console.log("Nimm einen Regenschirm mit.");
+  action = "Nimm einen Regenschirm mit.";
 } else if (weather == "Sonne") {
-  console.log("Nimm eine Sonnenbrille mit.");
+  action = "Nimm eine Sonnenbrille mit.";
 } else if (weather == "Schnee") {
-  console.log("Nimm Handschuhe mit.");
+  action = "Nimm Handschuhe mit.";
 } else {
-  console.log("Nimm nichts mit.");
+  action = "Nimm nichts mit.";
 }
 
 // if-else als Ausdruck
