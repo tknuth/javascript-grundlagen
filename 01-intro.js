@@ -1,5 +1,3 @@
-console.log("Willkommen zu JavaScript!");
-
 // Ganzzahl
 1;
 
@@ -28,7 +26,7 @@ Math.sqrt(2);
 0.1 + 0.2 === 0.3;
 
 // Konkatenation von Strings
-let name = prompt("Wie heißt du?");
+let name = "Max"
 "Hallo " + name;
 
 // implizite Typkonvertierung
