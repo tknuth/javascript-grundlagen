@@ -7,7 +7,7 @@ for (let language of languages) {
 // Das Schlüsselwort `break` beendet die Schleife vollständig.
 for (let language of languages) {
   console.log(language);
-  if (language === "Python") {
+  if (language == "Python") {
     console.log("Python gefunden!");
     break;
   }
@@ -20,7 +20,7 @@ languages.forEach((language, i) => {
 
 for (let i = 0; i < 10; i++) {
   // Gib eine Zahl aus, wenn sie gerade ist
-  if (i % 2 === 0) {
+  if (i % 2 == 0) {
     console.log(i);
   }
 }
@@ -28,7 +28,7 @@ for (let i = 0; i < 10; i++) {
 // `continue` fährt sofort mit der nächsten Iteration fort.
 let i = 0;
 while (i < 10) {
-  if (i % 2 === 0) {
+  if (i % 2 == 0) {
     continue;
   }
   console.log(i);
